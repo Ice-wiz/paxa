@@ -50,7 +50,7 @@ const CardList5 = () => {
   ];
 
   return (
-    <div className="ml-[10px] mr-[10px]">
+    <div className="ml-[10px] mr-[5px]">
       
       <CardTop heading='Final' />
 

@@ -14,7 +14,9 @@ import Card from '../CardComponents/Card';
 import CardTop from '../CardComponents/CardTop';
 import AddCard from '../CardComponents/AddCard';
 
+// Functional component representing a list of cards in another category
 const CardList2 = () => {
+  // Array of objects containing props for each Card
   const cardsData = [
     {
       heading: 'Home business advertising ideas',
@@ -51,7 +53,7 @@ const CardList2 = () => {
   ];
 
   return (
-    <div className="ml-[10px] mr-[10px]">
+    <div className="ml-[10px] mr-[5px]">
       
       
       <CardTop heading='Prototip' />
@@ -60,6 +62,8 @@ const CardList2 = () => {
       {cardsData.map((cardProps, index) => (
         <Card key={index} {...cardProps} />
       ))}
+
+    
       <div className='hidden'>
         <AddCard />
       </div>
