@@ -8,12 +8,11 @@ import CardList5 from '../components/CardsLists/CardList5';
 
 const Home = () => {
   return (
-    <div className="overflow-x-auto overflow-y-auto h-screen">
+    <div className="overflow-x-auto overflow-y-auto h-screen pb-20">
       <Header1 />
       <Header2 />
   
       <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center lg:items-start max-w-none lg:max-w-screen-xl mt-4 px-4">
-
         <CardList1 />
         <CardList2 />
         <CardList3 />
