@@ -18,7 +18,7 @@ const Home = () => {
         <CardList3 />
         <CardList4 />
         <CardList5 />
-        <div className="min-w-[2.5rem] h-full bg-transparent invisible">hi</div>
+        <div className="min-w-[2.5rem] h-full bg-transparent">hi</div>
       </div>
     </div>
   );
