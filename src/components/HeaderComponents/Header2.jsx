@@ -1,3 +1,4 @@
+// Importing specific icons and images for the header
 import Heart from '../../images/headerImages/Heart.svg';
 import Publicsvg from '../../images/headerImages/Public.svg';
 import Hardsvg from '../../images/headerImages/Hard.svg';
@@ -5,8 +6,8 @@ import Userssvg from '../../images/headerImages/Users.svg';
 
 const Header2 = () => {
   return (
-    <div className="header flex h-[85px] flex-col lg:flex-row lg:flex-wrap lg:items-center px-4">
-      <div className="header-left flex lg:flex-wrap lg:justify-between lg:items-center lg:ml-[20px] lg:w-[144px] lg:h-[39px] ml-3">
+    <div className="header flex h-[85px] flex-col lg:flex-row lg:flex-wrap lg:items-center">
+      <div className="header-left flex lg:flex-wrap lg:justify-between lg:items-center lg:ml-[20px] lg:w-[110px] lg:h-[39px] ml-3">
         <div className="lg:w-[114px]">
           <p className="text-black font-poppins text-[26px] font-medium cursor-pointer">
             Brackets

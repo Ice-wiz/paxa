@@ -12,7 +12,8 @@ const Home = () => {
       <Header1 />
       <Header2 />
   
-      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center lg:items-start max-w-none lg:max-w-screen-xl mt-2 px-4">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center lg:items-start max-w-none lg:max-w-screen-xl mt-4 px-4">
+
         <CardList1 />
         <CardList2 />
         <CardList3 />
