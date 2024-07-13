@@ -60,8 +60,6 @@ const CardList2 = () => {
       {cardsData.map((cardProps, index) => (
         <Card key={index} {...cardProps} />
       ))}
-
-    
       <div className='hidden'>
         <AddCard />
       </div>
