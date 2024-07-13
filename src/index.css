@@ -8,13 +8,13 @@ body {
 
 /* Horizontal scrollbar */
 ::-webkit-scrollbar {
-  width:  12 px;
+  width:  100 px;
   height: 12px;
 }
 
 ::-webkit-scrollbar:vertical {
   width: 12px;
-  height: 12px;
+  height: 100px;
 }
 
 ::-webkit-scrollbar-thumb {
