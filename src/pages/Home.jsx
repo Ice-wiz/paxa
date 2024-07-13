@@ -12,7 +12,7 @@ const Home = () => {
       <Header1 />
       <Header2 />
   
-      <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:items-start mx-auto lg:mx-0 max-w-screen-xl mt-2 pr-2">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:items-start mr-3 mx-auto lg:mx-0 max-w-screen-xl mt-2 ">
         <CardList1 />
         <CardList2 />
         <CardList3 />
