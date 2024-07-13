@@ -11,15 +11,14 @@ const Home = () => {
     <div className="overflow-x-auto overflow-y-auto h-screen">
       <Header1 />
       <Header2 />
-      
-      <div className="flex flex-col lg:flex-row">
-        <div className="w-10 lg:w-[2.5rem] h-full bg-transparent invisible">spacer</div>
-        <CardList1 className="my-4" />
-        <CardList2 className="my-4" />
-        <CardList3 className="my-4" />
-        <CardList4 className="my-4" />
-        <CardList5 className="my-4" />
-        <div className="w-10 lg:w-[2.5rem] h-full bg-transparent invisible">spacer</div>
+  
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center lg:items-start max-w-none lg:max-w-screen-xl mt-2 px-4">
+        <CardList1 />
+        <CardList2 />
+        <CardList3 />
+        <CardList4 />
+        <CardList5 />
+        <div className="w-10 lg:w-[2.5rem] h-full bg-transparent invisible">heyyy</div>
       </div>
     </div>
   );
