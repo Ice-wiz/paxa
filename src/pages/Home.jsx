@@ -12,12 +12,13 @@ const Home = () => {
       <Header1 />
       <Header2 />
   
-      <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:items-start mr-3 mx-auto lg:mx-0 max-w-screen-xl mt-2 ">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center lg:items-start max-w-screen-xl mt-2 px-4">
         <CardList1 />
         <CardList2 />
         <CardList3 />
         <CardList4 />
         <CardList5 />
+        <div className="min-w-[2.5rem] h-full bg-transparent invisible">hi</div>
       </div>
     </div>
   );

@@ -51,7 +51,7 @@ const CardList2 = () => {
   ];
 
   return (
-    <div className="ml-[20px]">
+    <div className="ml-[10px]">
       
       
       <CardTop heading='Prototip' />
