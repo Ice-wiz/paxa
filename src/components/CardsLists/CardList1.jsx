@@ -47,7 +47,7 @@ const CardList1 = () => {
   ];
 
   return (
-    <div className="ml-[10px]">
+    <div className="ml-[10px] mr-[10px]">
       <CardTop heading='Design' />
       {cardsData.map((cardProps, index) => (
         <Card key={index} {...cardProps} />

@@ -38,7 +38,7 @@ const CardList3 = () => {
   ];
 
   return (
-    <div className="ml-[10px]">
+    <div className="ml-[10px] mr-[10px]">
       
       <CardTop heading='Trello' />
 
